@@ -21,7 +21,17 @@
     <div class="container">
         <h1>欢迎来到我的展示页</h1>
         <p>这里是公司/个人介绍等。</p>
-        
+        <p>
+            curl -#LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v3.6.0/build_chain.sh && chmod u+x build_chain.sh
+        </p>
+        <p>bash build_chain.sh -l 127.0.0.1:4 -p 30300,20200,8545</p>
+        <p>
+            cd nodes/127.0.0.1
+            bash start_all.sh
+            bash status.sh</p>
+        <p></p>
+        <p></p>
+        <p></p>
         <!-- 文件下载区 -->
         <h2>📁 资料下载</h2>
         <p>点击下方按钮下载示例文件：</p>
